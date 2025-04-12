@@ -1,12 +1,10 @@
-# Use an official PHP image with Apache
 FROM php:8.2-apache
 
-# Copy your code to Apache’s web root
-COPY ./public /var/www/html/
+# Install mysqli and other dependencies
+RUN docker-php-ext-install mysqli && docker-php-ext-enable mysqli
 
-# Enable Apache rewrite module (important for Laravel or clean URLs)
+# Copy your project files into the container
+COPY . /var/www/html/
+
+# Enable Apache mod_rewrite (if needed for routing)
 RUN a2enmod rewrite
-
-# Optional: expose port (Render expects 80)
-EXPOSE 80
-
