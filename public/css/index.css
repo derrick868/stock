@@ -1,0 +1,578 @@
+/*
+Template Name:Teacher
+File: Layout CSS
+Author: Templates On Web
+Author URI: http://templateonweb.com/
+Licence: <a href="http://www.templateonweb.com/terms.php?v=content&contentid=152">Website Template Licence</a>
+*/
+/*********************center_home****************/
+.fade-carousel {
+    position: relative;
+    height: 90vh;
+}
+.fade-carousel .carousel-inner .item {
+    height: 90vh;
+}
+.fade-carousel .carousel-indicators > li {
+    margin: 0 2px;
+    background-color: #fff;
+    border-color: #fff;
+    opacity: .5;
+	width: 20px;
+    height: 20px;
+}
+.fade-carousel .carousel-indicators > li.active {
+  width: 20px;
+  height: 20px;
+  opacity: 1;
+}
+
+/********************************/
+/*          Hero Headers        */
+/********************************/
+.hero {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    z-index: 3;
+    color: #fff;
+    text-align: center;
+    text-shadow: 1px 1px 0 rgba(0,0,0,.75);
+	-webkit-transform: translate3d(-50%,-50%,0);
+	-moz-transform: translate3d(-50%,-50%,0);
+	-ms-transform: translate3d(-50%,-50%,0);
+	-o-transform: translate3d(-50%,-50%,0);
+	transform: translate3d(-50%,-50%,0);
+	width:100%;
+	text-align:left;
+	padding-left:100px;
+	padding-right:100px;
+	padding-top:113px;
+}
+.hero h1 {
+	color:#000;
+	font-size:50px;
+	margin-top:0;
+}
+.hero h1 span{
+ color: #00c5b5;
+ }
+.hero p{
+ color: #000;
+ }
+.fade-carousel .carousel-inner .item .hero {
+    opacity: 0;
+    -webkit-transition: 2s all ease-in-out .1s;
+       -moz-transition: 2s all ease-in-out .1s; 
+        -ms-transition: 2s all ease-in-out .1s; 
+         -o-transition: 2s all ease-in-out .1s; 
+            transition: 2s all ease-in-out .1s; 
+}
+.fade-carousel .carousel-inner .item.active .hero {
+    opacity: 1;
+    -webkit-transition: 2s all ease-in-out .1s;
+       -moz-transition: 2s all ease-in-out .1s; 
+        -ms-transition: 2s all ease-in-out .1s; 
+         -o-transition: 2s all ease-in-out .1s; 
+            transition: 2s all ease-in-out .1s;    
+}
+
+/********************************/
+/*            Overlay           */
+/********************************/
+.overlay {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: 2;
+    background-color: #ffcc0091;
+    opacity: .7;
+}
+
+/*       Slides backgrounds     */
+/********************************/
+.fade-carousel .slides .slide-1, 
+.fade-carousel .slides .slide-2,
+.fade-carousel .slides .slide-3 {
+  height: 90vh;
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+.fade-carousel .slides .slide-1 {
+    background-image: url(../img/1.jpg);
+}
+.fade-carousel .slides .slide-2 {
+    background-image: url(../img/2.jpg);
+}
+.fade-carousel .slides .slide-3 {
+    background-image: url(../img/3.jpg);
+}
+.hero_i ul{
+ margin-top:0;
+ margin-top:200px;  
+   }
+.hero_i ul li{
+ color:#fff;
+ margin-bottom:5px;
+ }
+.big{
+ font-size:28px;
+ color:#00c5b5!important; 
+  }
+.carousel-indicators{
+  bottom:0;
+  left:11%; 
+   }
+   
+.hero_im{
+ position:relative;
+  }
+.hero_im_2{
+  position:absolute;
+  bottom:11%;
+  width:100%;
+  text-align:center;
+  background:#ffcc00b8;
+  padding:5px 15px 25px 15px;
+  }
+/*********************center_home_end****************/
+
+/*********************course_home****************/
+#course_home{
+ padding-top:30px;
+ padding-bottom:40px; 
+   }
+.course_home_l h2{
+background:#fc0;
+padding:10px 10px 12px 10px; 
+text-align:center; 
+  }
+.course_home_li span{
+  color:#000;
+  width:50px;
+  height:50px;
+  background:#fc0; 
+  text-align:center;
+  line-height:50px;
+  font-size:26px;
+  border-radius:50%;
+  margin-right:5px;
+  vertical-align:middle;
+   }
+.course_home_li{
+margin-top:30px;
+  }
+.course_home_lii{
+border-bottom:2px dotted #ddd;
+padding-bottom:30px;  
+ }
+/*********************course_home_end****************/
+
+/*********************goal****************/
+#goal{
+  background:#fc0;
+  padding-top:30px;
+  padding-bottom:40px; 
+   }
+.goal_1_l h2{
+background:#fff;
+width:70%; 
+text-align:center;
+padding: 10px 10px 12px 10px; 
+  }
+.goal_1_r h3 i{
+   vertical-align:middle;
+   margin-left:5px;
+   margin-right:5px;
+   color:#fff; 
+	}
+.goal_1_li{
+  margin-top:20px;
+  }
+.goal_1_li span i{
+  font-size:50px;
+  }
+.goal_1_rii{
+ background:#fff;
+ padding:0px 10px 10px 10px;
+ border-radius:5px;
+ margin-top:20px; 
+  }
+/*********************goal_end****************/
+
+/*********************work_home****************/
+#work_home{
+  padding-top:30px;
+  padding-bottom:40px; 
+   }
+.work_home_1 h2{
+background:#fc0;
+width:30%;
+margin-left:auto;
+margin-right:auto;
+padding: 10px 10px 12px 10px;
+  }
+.work_home_2_ii h1 span{
+   background:#fc0;
+   border-radius:50%;
+   width:120px;
+   height:120px;
+   line-height:120px;
+   margin-left:auto;
+   margin-right:auto;
+   border:3px solid #000;
+   display:block;
+   }
+.work_home_2_ii h1{
+border:1px dashed #ccc;
+padding:10px 0px;
+border-radius:50%;
+width:140px;
+height:140px;
+margin:auto;
+   }
+.work_home_2{
+margin-top:30px; 
+ }
+ 
+.work_home_2_iio h1 span{
+    background:#000;
+   border-radius:50%;
+   width:120px;
+   height:120px;
+   line-height:120px;
+   margin-left:auto;
+   margin-right:auto;
+   border:3px solid #fc0;
+   display:block;
+   color:#fff;
+  }
+.work_home_2_iio h1 {
+ border:1px dashed #000;
+padding:10px 0px;
+border-radius:50%;
+width:140px;
+height:140px;
+margin:auto;
+  }
+.work_home_2_iio{
+  margin-top:80px;
+  }
+.work_home_3{
+ margin-top:30px; 
+  }
+/*********************work_home_end****************/
+
+/*********************tutor****************/
+#tutor{
+ background:#fc0;
+ padding-top:30px;
+ padding-bottom:40px; 
+  }
+.tutor_1l h3{
+width:40%;
+  }
+.tutor_1rii span i{
+  background:#fff;
+  width:70px;
+  height:70px;
+  text-align:center;
+  line-height:70px;
+  font-size:40px; 
+  border-radius:5px 10px 15px 20px; 
+	}
+.tutor_1ri{
+margin-top:15px;  
+  }
+/*********************tutor_end****************/
+
+/*********************skill_home****************/
+#skill_home{
+padding-top:30px;
+padding-bottom:40px;  
+  }
+.skill_home_1l h3{
+  width:60%; 
+   }
+.skill_home_1l ul li{
+display:inline-block;
+padding-left:5px;
+padding-right:5px; 
+  } 
+.skill_home_1r{
+background:#fc0;
+padding:10px 15px 20px 15px;
+border-radius:15px 30px;  
+  }
+.skill_home_1r p{
+ margin-top:15px;  
+   }
+.skill_home_1r p i{
+ margin-right:5px;
+ background:#fff;
+ text-align:center;
+ width:40px;
+ height:40px;
+ line-height:40px;
+ border-radius:50%; 
+  }
+.skill_home_1r .para_1:before {
+    display: inline-block;
+    width: 15%;
+    height: 2px;
+    background-color: #000;
+    vertical-align: middle;
+    margin-right: 2%;
+    content: "";
+}
+/*********************skill_home_end****************/
+
+/*********************achievements****************/
+#achievements{
+  padding-top:30px;
+  padding-bottom:40px;
+  background:#fc0;
+  }
+.achiev_1 h2{
+  width:30%; 
+   }
+.achiev_1 span{
+  display:block;
+  margin-top:10px;
+  font-size:26px;
+  }
+.achiev_2i span i{
+background:#000;
+border-radius:50%;
+width:150px;
+height:150px;
+color:#fff;
+line-height:140px;
+font-size:60px;
+border:3px solid #fff;
+}
+.achiev_2{
+ margin-top:30px;  
+   }
+.achiev_2i .bg_1 i{
+  background:#fff;
+  color:#000;
+  border:3px solid #000;
+  }
+/*********************achievements_end****************/
+
+/*********************instructor****************/
+#instructor{
+ padding-top:30px;
+ padding-bottom:40px; 
+  }
+.instr_1r1i h5{
+  line-height:1.6em;
+  }
+.instr_1r1i h5 i{
+ margin-right:5px;
+ vertical-align:middle;
+ font-weight:bold; 
+  }
+.instr_1r1i h5 span{
+margin-left:20px; 
+ }
+
+.instr_1r1i li a {
+ background-color: #000;   
+}
+
+/*********************instructor_end****************/
+
+/*********************testimonial_home****************/
+#testimonial_home{
+  padding-top:30px;
+  padding-bottom:40px;
+  background: #fc0; 
+   }
+.testimonial_h_1 .h_bg{
+  width:30%;
+  }
+.testimonial_h_2{
+width:60%;  
+   }
+.testimonial_h_3{
+width:60%; 
+text-align:center;
+font-style:italic; 
+   }
+/*********************testimonial_home_end****************/
+
+/*********************example_h****************/
+#example_h{
+  padding-top:40px;
+  padding-bottom:40px;
+  }
+.example_h_1l{
+  background:#fc0;
+  padding:20px 15px 0px 15px;
+  min-height:300px;
+  }
+.example_h_1r img{
+height:300px; 
+  }
+/*********************example_h_end****************/
+
+
+@media screen and (max-width : 767px){
+.carousel-indicators{
+  left:50%; 
+   }
+.hero{
+ width:100%;
+ padding:0; 
+  }
+.hero_im_2{
+ position:static; 
+  }
+.hero h1{
+ font-size:30px; 
+  }
+.hero_i ul{
+display:none; 
+  }
+.hero_i img{
+display:none; 
+  }
+.course_home_lii .col-sm-2{
+ float:left; 
+  }
+.course_home_lii{
+ padding-bottom:10px;
+ margin-bottom:10px; 
+  }
+.course_home_li{
+margin-top:15px; 
+ }
+.course_home_l p{
+  text-align:center;
+  }
+.goal_1_l h2{
+margin-left:auto;
+margin-right:auto;
+width:100%;
+ }
+#goal{
+  text-align:center; 
+  }
+.goal_1_li span i{
+ margin-top:15px;
+ }
+.goal_1_r{
+ margin-top:20px; 
+  }
+.work_home_1 h2{
+width:100%;  
+  }
+.work_home_2_iio{
+margin-top:0;  
+  }
+.work_home_2_i{
+ margin-top:20px; 
+  }
+.tutor_1l h3{
+ width:100%;
+ }
+#tutor{
+text-align:center;  
+  }
+.tutor_1ri{
+ display:flex;
+  flex-wrap: wrap;
+  }
+.tutor_1rii {
+ margin-top:10px;
+ }
+.h_bg_1{
+ width:100%!important;
+ }
+.h_bg{
+  width:100%!important;
+ }
+#skill_home{
+ text-align:center; 
+  }
+.achiev_2i{
+margin-bottom:15px; 
+ }
+#instructor{
+ text-align:center; 
+ }
+#example_h{
+ text-align:center;  
+  }
+.example_h_1l{
+min-height:auto;
+padding-bottom:35px;   
+   }
+}
+
+@media (min-width:768px) and (max-width:991px) {
+.hero{
+padding-left:0;
+padding-right:0;
+padding-top:40px;  
+  }
+.hero_i ul{
+ margin-top:150px; 
+  }
+.hero_i ul li{
+font-size:16px;
+  }
+.big{
+font-size:18px!important; 
+ }
+.hero_im_2{
+bottom:0; 
+padding:10px 10px 25px 10px;
+  }
+
+.course_home_li span{
+ width:35px;
+ height:35px;
+ line-height:35px;
+ font-size:18px; 
+  }
+.skill_home_1l .button{
+  padding:10px 20px;
+  }
+.skill_home_1l .button_1{
+  padding:10px 20px;
+  }
+.example_h_1l .button{
+  padding:10px 20px;
+ }
+.example_h_1l p{
+font-size:14px;
+ }
+ }
+ @media (min-width:992px) and (max-width:1200px) {
+.hero_im_2{
+bottom:0; 
+padding:10px 10px 25px 10px;
+  }
+.hero_i ul{
+ margin-top:100px; 
+  }
+.hero{
+padding-top:20px;  
+  }
+.big{
+font-size:18px!important; 
+ }
+.hero_i ul li{
+font-size:16px;
+  }
+ }
+@media (min-width:1201px) and (max-width:1310px) {
+
+ }
+
+
+
